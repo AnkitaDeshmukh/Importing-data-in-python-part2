@@ -22,7 +22,7 @@ sns.set(color_codes=True)
 cd = ['clinton', 'trump', 'sanders', 'cruz']
 
 # Plot histogram
-ax = sns.barplot(cd, [clinton, trump, sanders, cruz)
+ax = sns.barplot(cd, [clinton, trump, sanders, cruz])
 ax.set(ylabel="count")
 plt.show()
 
